@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       {/* <Library /> */}
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       {/* <Courses /> */}
       {/* <Footer /> */}
