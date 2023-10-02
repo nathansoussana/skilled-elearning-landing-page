@@ -1,18 +1,18 @@
-import Library from './Library'
+// import Library from './Library'
 import Navbar from './Navbar'
-// import Hero from './Hero'
+import Hero from './Hero'
 // import Courses from './Courses'
 // import Footer from './Footer'
 
 function App() {
   return (
-    <>
-      <Library />
+    <div className="container">
+      {/* <Library /> */}
       {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Hero />
       {/* <Courses /> */}
       {/* <Footer /> */}
-    </>
+    </div>
   )
 }
 
