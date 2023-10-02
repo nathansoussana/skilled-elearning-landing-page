@@ -139,10 +139,21 @@ nav a {
   left: 50px;
 }
 
-.hero-img-img-mobile {
+.hero-img-img-tablet, .hero-img-img-mobile {
   display: none;
 }
 
+@media all and (max-width: 900px) {
+  .hero-img-img-tablet {
+    display: block;
+    position: relative;
+    width: 150%;
+    bottom: 50px;
+  }
+  .hero-img-img-desktop, .hero-img-img-mobile {
+    display: none;
+  }
+}
 @media all and (max-width: 500px) {
   .hero {
     flex-direction: column;
@@ -152,7 +163,7 @@ nav a {
     width: 100%;
     margin: 40px auto;
   }
-  .hero-img-img-desktop {
+  .hero-img-img-desktop, .hero-img-img-tablet {
     display: none;
   }
 }

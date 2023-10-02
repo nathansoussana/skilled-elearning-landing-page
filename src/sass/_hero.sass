@@ -31,8 +31,20 @@
   bottom: 100px
   left: 50px
 
-.hero-img-img-mobile
+.hero-img-img-tablet, .hero-img-img-mobile
   display: none
+
+// Tablet styles
+
+@media all and (max-width: variables.$tablet)
+  .hero-img-img-tablet
+    display: block
+    position: relative
+    width: 150%
+    bottom: 50px
+
+  .hero-img-img-desktop, .hero-img-img-mobile
+    display: none
 
 // Mobile styles
 
@@ -45,5 +57,5 @@
     width: 100%
     margin: 40px auto
 
-  .hero-img-img-desktop
+  .hero-img-img-desktop, .hero-img-img-tablet
     display: none
