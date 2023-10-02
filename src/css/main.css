@@ -105,6 +105,22 @@ nav a {
   z-index: 1;
 }
 
+@media (prefers-color-scheme: dark) {
+  .nav-logo-dark-mode {
+    display: block;
+  }
+  .nav-logo-light-mode {
+    display: none;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .nav-logo-dark-mode {
+    display: none;
+  }
+  .nav-logo-light-mode {
+    display: block;
+  }
+}
 .hero {
   display: flex;
   align-items: center;
