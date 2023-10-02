@@ -1,15 +1,49 @@
+@use 'variables'
+
 .hero
   display: flex
   align-items: center
+
+// Content section
+
+.hero-content
+  flex: 1
+  padding: 20px
 
 .hero-content-title
   margin: 0 0 29px
 
 .hero-content-text
   margin: 0
+  max-width: 445px
 
 .button-2
   margin: 40px 0 0
 
-.hero-img-img
-  max-width: 100%
+// Image section
+
+.hero-img
+  flex: 1
+
+.hero-img-img-desktop
+  position: relative
+  width: 150%
+  bottom: 100px
+  left: 50px
+
+.hero-img-img-mobile
+  display: none
+
+// Mobile styles
+
+@media all and (max-width: variables.$mobile)
+  .hero
+    flex-direction: column
+
+  .hero-img-img-mobile
+    display: block
+    width: 100%
+    margin: 40px auto
+
+  .hero-img-img-desktop
+    display: none

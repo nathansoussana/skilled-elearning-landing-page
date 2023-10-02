@@ -2,6 +2,8 @@
 
 html, body
   font-family: 'Plus Jakarta Sans', sans-serif
+  margin: 0
+  overflow-x: hidden
 
 h1, h2, h3, h4
   font-weight: 800
@@ -38,3 +40,10 @@ small
 .container
   max-width: 1100px
   margin: 0 auto
+
+// Tablet
+
+@media all and (max-width: variables.$tablet)
+  h1
+    font-size: 40px
+    line-height: 51px

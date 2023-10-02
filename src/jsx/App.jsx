@@ -1,8 +1,8 @@
 // import Library from './Library'
 import Navbar from './Navbar'
 import Hero from './Hero'
-// import Courses from './Courses'
-// import Footer from './Footer'
+import Courses from './Courses'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       {/* <Library /> */}
       <Navbar />
       <Hero />
-      {/* <Courses /> */}
-      {/* <Footer /> */}
+      <Courses />
+      <Footer />
     </div>
   )
 }
