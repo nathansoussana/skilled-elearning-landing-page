@@ -1,3 +1,4 @@
+import Library from './Library'
 import Navbar from './Navbar'
 // import Hero from './Hero'
 // import Courses from './Courses'
@@ -6,8 +7,8 @@ import Navbar from './Navbar'
 function App() {
   return (
     <>
-      <Navbar />
-      <h1>Hello Learner!</h1>
+      <Library />
+      {/* <Navbar /> */}
       {/* <Hero /> */}
       {/* <Courses /> */}
       {/* <Footer /> */}
