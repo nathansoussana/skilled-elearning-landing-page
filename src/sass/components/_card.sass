@@ -3,14 +3,13 @@
 // General Card Styles
 
 .card
-  flex: 1 1 320px
-  // width: 350px
-  // width: 100%
+  flex: 1 1 300px
   height: 322px
   flex-shrink: 0
   border-radius: 15px
   padding: 64px 32px
   box-sizing: border-box
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04)
 
 // Card Title
 
@@ -36,11 +35,27 @@
 
 // Card Container
 
-.library
-  .card-container
-    margin: 40px 0
+.card-container
+  margin: 40px 0
 
 .card-container
   display: flex
   flex-wrap: wrap
   gap: 60px 30px
+
+// Tablet Styles
+@media all and (max-width: variables.$tablet)
+  .card-title-title
+    font-size: 24px
+    line-height: 32px
+
+// Mobile Styles
+
+@media all and (max-width: variables.$mobile)
+  .card-title
+    height: 100%
+    padding-top: 24px
+    padding-bottom: 32px
+
+  .card-title-title
+    margin-bottom: 0

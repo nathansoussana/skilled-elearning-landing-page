@@ -112,12 +112,13 @@ small {
 }
 
 .card {
-  flex: 1 1 320px;
+  flex: 1 1 300px;
   height: 322px;
   flex-shrink: 0;
   border-radius: 15px;
   padding: 64px 32px;
   box-sizing: border-box;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
 }
 
 .card-title {
@@ -143,7 +144,7 @@ small {
   margin-top: 0 !important;
 }
 
-.library .card-container {
+.card-container {
   margin: 40px 0;
 }
 
@@ -153,6 +154,22 @@ small {
   gap: 60px 30px;
 }
 
+@media all and (max-width: 900px) {
+  .card-title-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media all and (max-width: 500px) {
+  .card-title {
+    height: 100%;
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+  .card-title-title {
+    margin-bottom: 0;
+  }
+}
 .library {
   display: flex;
   flex-direction: column;
