@@ -12,7 +12,7 @@ export function CardTitle() {
 export function CardCourse(props) {
   return (
     <div className="card card-course">
-      <img src={`../public/${props.icon}.svg`} alt="Course icon" className="card-course-icon"/>
+      <img src={`${props.icon}.svg`} alt="Course icon" className="card-course-icon"/>
       <h4 className="card-course-title">{props.title}</h4>
       <p className="card-course-description">{props.description}</p>
       <a href="#" className="link card-course-link">Get Started</a>
