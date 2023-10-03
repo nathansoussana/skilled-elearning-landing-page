@@ -26,35 +26,35 @@ export default function Library() {
           </div>
 
           <div className="card card-course">
-            <img src="../public/icon-animation.svg" alt="Course icon" className="card-course-icon"/>
+            <img src="icon-animation.svg" alt="Course icon" className="card-course-icon"/>
             <h4 className="card-course-title">Animation</h4>
             <p className="class-course-description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
             <a href="#" className="link class-course-link">Get Started</a>
           </div>
 
           <div className="card card-course">
-            <img src="../public/icon-animation.svg" alt="Course icon" className="card-course-icon"/>
+            <img src="icon-animation.svg" alt="Course icon" className="card-course-icon"/>
             <h4 className="card-course-title">Animation</h4>
             <p className="class-course-description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
             <a href="#" className="link class-course-link">Get Started</a>
           </div>
 
           <div className="card card-course">
-            <img src="../public/icon-animation.svg" alt="Course icon" className="card-course-icon"/>
+            <img src="icon-animation.svg" alt="Course icon" className="card-course-icon"/>
             <h4 className="card-course-title">Animation</h4>
             <p className="class-course-description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
             <a href="#" className="link class-course-link">Get Started</a>
           </div>
 
           <div className="card card-course">
-            <img src="../public/icon-animation.svg" alt="Course icon" className="card-course-icon"/>
+            <img src="icon-animation.svg" alt="Course icon" className="card-course-icon"/>
             <h4 className="card-course-title">Animation</h4>
             <p className="class-course-description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
             <a href="#" className="link class-course-link">Get Started</a>
           </div>
 
           <div className="card card-course">
-            <img src="../public/icon-animation.svg" alt="Course icon" className="card-course-icon"/>
+            <img src="icon-animation.svg" alt="Course icon" className="card-course-icon"/>
             <h4 className="card-course-title">Animation</h4>
             <p className="class-course-description">Learn the latest animation techniques to create stunning motion design and captivate your audience.</p>
             <a href="#" className="link class-course-link">Get Started</a>

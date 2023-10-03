@@ -11,9 +11,9 @@ export default function Hero() {
         </div>
 
         <div className="hero-img">
-          <img className="hero-img-img-desktop" src="public/image-hero-desktop.png" alt="An illustration of a lady studying at home" />
-          <img className="hero-img-img-tablet" src="public/image-hero-tablet.png" alt="An illustration of a lady studying at home" />
-          <img className="hero-img-img-mobile" src="public/image-hero-mobile.png" alt="An illustration of a lady studying at home" />
+          <img className="hero-img-img-desktop" src="image-hero-desktop.png" alt="An illustration of a lady studying at home" />
+          <img className="hero-img-img-tablet" src="image-hero-tablet.png" alt="An illustration of a lady studying at home" />
+          <img className="hero-img-img-mobile" src="image-hero-mobile.png" alt="An illustration of a lady studying at home" />
         </div>
       </div>
     </section>
