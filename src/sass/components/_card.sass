@@ -1,0 +1,46 @@
+@use '../variables'
+
+// General Card Styles
+
+.card
+  flex: 1 1 320px
+  // width: 350px
+  // width: 100%
+  height: 322px
+  flex-shrink: 0
+  border-radius: 15px
+  padding: 64px 32px
+  box-sizing: border-box
+
+// Card Title
+
+.card-title
+  background: variables.$gradient-pink
+
+.card-title-title
+  color: variables.$white
+  margin-top: 0 !important
+
+// Card Course
+
+.card-course
+  background: variables.$white
+  position: relative
+
+.card-course-icon
+  position: absolute
+  top: -27px
+
+.card-course-title
+  margin-top: 0 !important
+
+// Card Container
+
+.library
+  .card-container
+    margin: 40px 0
+
+.card-container
+  display: flex
+  flex-wrap: wrap
+  gap: 60px 30px

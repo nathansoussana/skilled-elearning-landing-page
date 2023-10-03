@@ -1,20 +1,18 @@
-// import Library from './Library'
-import Navbar from './Navbar'
-import Hero from './Hero'
-import Courses from './Courses'
-import Footer from './Footer'
+import Library from './sections/Library'
+import Navbar from './sections/Navbar'
+import Hero from './sections/Hero'
+import Courses from './sections/Courses'
+import Footer from './sections/Footer'
 
 function App() {
   return (
-    <>
-    <div className="container">
-      {/* <Library /> */}
+    <div>
       <Navbar />
-      <Hero />
-      <Courses />
-    </div>
+      <Library />
+      {/* <Hero /> */}
+      {/* <Courses /> */}
       <Footer />
-    </>
+    </div>
   )
 }
 
