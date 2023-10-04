@@ -9,4 +9,4 @@
 This project is a [Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q) challenge. I built it using SASS and React (setup with Vite) along with a Figma design. Click [here](https://skilled-elearning-lp-nathan-soussana.netlify.app) to view the live website.
 
 ## Learnings
-Instead of using SCSS as I did in the past, I tried for the first time the pure SASS syntax by using indentation and by removing curly brackets and semi-columns. I definitely enjoyed how cleaner my code looked like as a result. I'm curious whether SASS is scalable to bigger projects, or if the SCSS syntax suits longer CSS files better.
+Instead of using SCSS as I did in the past, I tried for the first time the pure SASS syntax by using indentation and by removing curly brackets and semi-columns. I definitely enjoyed how cleaner my code looked like as a result. I'm curious whether SASS is scalable to bigger projects, or if the SCSS syntax suits more complex CSS files better.
