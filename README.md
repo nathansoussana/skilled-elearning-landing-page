@@ -6,7 +6,7 @@
 <img height="500" alt="Skilled - Mobile" src="https://github.com/nathansoussana/skilled-elearning-landing-page/assets/85996279/6cffad7c-273e-4a26-aa4f-ce5a67e5b081">
 
 ## Description
-This landing page is a [Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q) challenge. I built it using SASS and React (setup with Vite) along with a Figma design. Click [here](https://skilled-elearning-lp-nathan-soussana.netlify.app) to view the live website.
+This project is a [Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q) challenge. I built it using SASS and React (setup with Vite) along with a Figma design. Click [here](https://skilled-elearning-lp-nathan-soussana.netlify.app) to view the live website.
 
 ## Learnings
 Instead of using SCSS as I did in the past, I tried for the first time the pure SASS syntax by using indentation and by removing curly brackets and semi-columns. I definitely enjoyed how cleaner my code looked like as a result. I'm curious whether SASS is scalable to bigger projects, or if the SCSS syntax suits longer CSS files better.
